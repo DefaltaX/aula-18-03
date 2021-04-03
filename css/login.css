@@ -1,0 +1,40 @@
+.pag_login{
+    background-color: #ecf0f1;
+    text-align: center;
+    padding: 50px 0;
+}
+.box_login{
+    display: inline-block;
+    background-color: white;
+    box-shadow: 3px 3px 5px 2px #ccc ;
+    padding: 60px 20px 0px 20px ;
+    border-radius: 20px;
+    width: 400px;
+}
+.pag_login .input-padrao{
+    width: 50%;
+    display: inline-block;
+    margin: 15px 0 15px 0;
+    height: 30px;
+    border-radius: 5px;
+}
+.btn_green{
+    color: white;
+    background-color: green;
+    margin: 20px 0 50px 0;
+    border: 0;
+    padding: 10px 20px;
+    
+    border-radius: 5px;
+    float: left;
+    cursor: pointer;
+}
+.pag_login .btn_green{
+    display: block;
+    float: none;
+    margin: auto;
+    margin-bottom: 70px;
+}
+form{
+    font-size: 15px;
+}

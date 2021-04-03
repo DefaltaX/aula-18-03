@@ -1,0 +1,130 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+/* Começo do header*/
+
+.header{
+    width: 100%;
+    height: 100px;
+    background-color: rgb(37, 37, 37);
+    border-bottom: 5px solid orangered;
+}
+.centro{
+    max-width: 80%;
+    height: 100%;
+    margin: 0 auto;
+}
+
+.centro .logo{
+    color: white;
+    float: left;
+}
+
+.colorido{
+    color: orangered;
+}
+
+.centro nav{
+    color: white;
+    list-style: none;
+    float: right;
+    margin-top: 15px;
+}
+
+.centro li{
+    display: inline-block;
+    margin-left: 2em;
+    font-size: 1.2em;
+}
+/* Final do Header */
+
+/* Começo da Apresentação */
+.apresentacao{
+    text-align: center;
+    background-image: url("../img/team.png");
+    min-height: 400px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+}
+
+.apresentacao .titulo{
+    margin: 0;
+    padding-top: 50px;
+    font-size: 3em;
+}
+
+.apresentacao p{
+    padding-top: 40px;
+    font-size: 1.3em;
+}
+/* Final da Apresentação */
+
+/* Começo do Receba */
+.receba{
+    padding: 30px 0 0 0;
+    background-color: rgb(37, 37, 37);
+    color: white;
+    height: 80px;
+}
+
+.receba h1{
+    margin: 0;
+    float: left;
+}
+
+.receba .itens{
+    float: right;
+}
+.receba input{
+    width: 250px;
+    height: 30px;
+}
+.btn_enviar{
+    background-color: orangered;
+    color: white;
+    border: none;
+    height: 35px;
+    width: 65px;
+}
+/* Final do Receba */
+
+/* Começo do Missão, Visão e Valores */
+
+.imagens .item img{
+    height: 150px;
+}
+
+.imagens .item {
+    float: left;
+    text-align: center;
+    width: 300px;
+    margin: 50px auto;
+}
+.imagens{
+    max-width: 1126px;
+    height: 350px;
+    margin: 0 auto;
+}
+/* Final do Missão, Visão e Valores */
+
+/* Começo do Rodapé */
+
+.rodape{
+    background-color: orangered;
+    height: 100px;
+}
+
+.rodape h4{
+    text-align: center;
+    padding-top: 40px;
+    color: white;
+}
+
+/* Final do Rodapé */
